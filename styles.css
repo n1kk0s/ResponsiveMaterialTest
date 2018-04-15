@@ -1,0 +1,156 @@
+body {
+  background-color: #FBE9E7;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5rem;
+  font-family: 'Roboto', 'Noto', sans-serif;
+}
+
+/* Testing only
+.content, .post, .sidebar {
+  border: solid 2px black;
+}
+ */
+
+ /* Mobile media queries */
+@media only screen and (max-width: 600px) {
+
+  nav {
+    display: block;
+    width: 100%;
+    margin:0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #FF7043;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+
+  .button {
+    display: block;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+  }
+
+  .content {
+    margin:0;
+    padding: 0;
+  }
+
+  .post, .sidebar {
+    display: block;
+    width:100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px gray;
+    box-sizing: border-box;
+  }
+
+}
+
+/* Media queries for tablets */
+@media only screen and (max-width: 960px) and (min-width: 600px) {
+
+  .bannerImage {
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+  }
+
+  nav {
+    display: block;
+    width: 100%;
+    margin:0;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    background-color: #FF7043;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+
+  nav a {
+    color:white;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .content {
+    margin:0;
+    padding: 0;
+  }
+
+  .post, .sidebar {
+    display: block;
+    width:auto;
+    margin: 1rem 5rem 1rem 5rem;
+    padding: 1rem;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px gray;
+    box-sizing: border-box;
+  }
+
+}
+
+/* Media queries for desktop */
+@media only screen and (min-width: 960px) {
+
+  .bannerImage {
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+  }
+
+  nav {
+    display: block;
+    width: 100%;
+    margin:0;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    background-color: #FF7043;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+
+  nav a {
+    color:white;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .content {
+    width: 50rem;
+    margin: 0 auto;
+  }
+
+  .post {
+    width: auto;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px gray;
+    box-sizing: border-box;
+  }
+
+  .sidebar {
+    width: auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: #FF7043;
+    color: white;
+  }
+
+}
